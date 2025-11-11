@@ -1,0 +1,141 @@
+*{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end; /* empurra itens para a direita */
+  align-items: center;
+  gap: 15px; /* espaço entre os itens */
+  padding: 10px 20px;
+}
+
+nav{
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    padding: 5px 5px;
+    align-items: center;
+    gap: 7px;
+    color: black;
+}
+
+.caixa-pesquisa {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #474747;
+  border-radius: 9999px; /* deixa bem arredondado */
+  padding: 8px 16px;
+  width: 40%; /* largura fixa, pode */
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  margin: 40px auto; /* centraliza horizontalmente */
+  margin-top: 10px;
+}
+
+.caixa-pesquisa .icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.caixa-pesquisa input {
+  border: none; /*none oculta completamente um elemento HTML da página*/
+  outline: none; /* é uma linha desenhada à volta de um elemento, fora da sua borda, que serve para destacar o elemento sem afetar o seu tamanho */
+  font-size: 16px;
+  flex: 1;
+}
+ 
+p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pt{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.fonte{
+  padding: 5px 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+ 
+.login{
+    background-color: #0b57d0;
+    border-radius: 30px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.foto{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+  .foto2{
+    width: 330px;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .brasil{
+    padding: 15px 30px;
+    background-color: #f7f8f9;
+    margin-top: 110px;
+  }
+
+  .borda{
+    background-color:#f8f9fa;
+    padding: 10px;
+  }
+
+ .botoes{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    cursor: pointer;
+    padding: 0 16px;
+    height: 36px;
+    margin: 11px 4px;
+    border: none;
+
+ }
+
+
+.footer {
+  background-color: #f7f8f9;
+  border-top: 1px solid #dadce0;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+}
+
+footer{
+position:fixed;
+bottom: 0;   /* cola no fundo da tela */
+width: 100%;
+}
+ 
+ 
+.rodape{
+    padding: 5px 20px;
+    display: flex;
+    display: inline-block; /* alinha em linha */
+    margin: 1px;  
+}
+ 
+.rodape2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;}

@@ -1,0 +1,60 @@
+*{
+    font-family: Tahoma;
+}
+
+.titulo{
+    text-align: center;
+    font-family: Tahoma;
+   
+}
+.body{
+  overflow: hidden;
+}
+
+.fundo{
+    background-color: #f1f1f1;
+    height: auto;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+section{
+display: flex;
+justify-content: space-between;
+margin-top: 170px;
+width: 97%;
+padding: 20px;
+
+}
+
+.caixarosa{
+    background-color: #ff7cab;
+    width: 239px;
+    height: 239px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+
+
+.footer{
+     background-color: #f1f1f1;
+     text-align: center;
+     width: 100%;
+     padding: 25px;
+     position: fixed;
+     bottom: 0%;
+     color: #7e7e7e;
+}
+
+.img{
+    width: 70%;
+    height: 70%;
+    margin-left: 29px;
+    align-items: center;
+    text-align: center;
+}

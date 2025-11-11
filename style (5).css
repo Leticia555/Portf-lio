@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c7d422;
+}
+ 
+main{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+ 
+section{
+    margin-top: 180px;
+    border-radius: 15px;
+    border-color: solid black 2px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 300px;
+    align-items: center;
+    padding: 25px;
+    color: white;
+}
+ 
+input{
+    height: 40px;
+    width: 600px;
+    color: black;
+    border-radius: 12px;
+    background-color: white;
+    margin: 10px;
+}
+ 
+ 
+article{
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    font-size: 10px;
+}
+ 
+button{
+    color: white;
+    background-color: red;
+    height: 45px;
+    width: 150px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+ 
+button :hover{
+    cursor: pointer;
+}
+ 
+/* Celulares */
+    @media (max-width: 800px){
+ 
+section{
+    margin-top: 100px;
+    border-radius: 15px;
+    border-color: solid black 2px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 200px;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+input{
+    height: 20px;
+    width: 500px;
+    color: black;
+    border-radius: 12px;
+    background-color: white;
+    margin: 10px;
+}
+ 
+ 
+article{
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    font-size: 10px;
+}
+ 
+button{
+    color: white;
+    background-color: red;
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+    }
+ 

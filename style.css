@@ -1,0 +1,147 @@
+/*Site portifólio*/
+ 
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat";
+    box-sizing: border-box;
+    overflow: hidden;
+}
+ 
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:  #2763b1 ;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+header{
+    background-color: #513f82;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+ 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ 
+footer{
+    background-color: #513f82;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px ;
+}
+ 
+main{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px ;
+}
+ 
+.main-content{
+    display: flex;
+    flex-direction: column;
+    
+    width: 90%;
+}
+ 
+.box{
+    width: 70%;
+    border: 2px ;
+}
+ 
+.text p{
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: 250; /*grossura da escrita*/
+    text-align: justify;
+    line-height: 1,6; /*espaçamento um pouco maior das linhas*/
+}
+ 
+footer span{
+    font-size: 0.8em;
+    font-weight: 200;
+}
+.main-content h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+ 
+.projetos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+ 
+    width: 100%;
+}
+ 
+.card{
+    width:130px;
+    height:130px;
+    background-color: #eee;
+    border-radius: 30px;
+    margin-right: 1.8em;
+    margin-left:1.8em;
+    cursor: pointer;
+    text-align: center;
+    
+   
+}
+ 
+.card img{
+width: 130px;
+height: 130px;
+border-radius: 30px;
+vertical-align: middle;
+}
+ 
+.card:hover{
+    box-shadow:0px 0px 8px #00e0ff;
+}
+ 
+header h1{
+    font-size: 2.8em;
+    font-weight: 200;
+    cursor: pointer;
+   
+}
+ 
+header nav a{
+    margin-right:  1.3em;
+    font-size: 1.5em;
+    
+}
+ 
+header h1, a{
+    color: #ebebeb;
+}
+ 
+main figure{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+  
+    width: 26%;
+ 
+}
+main figure img{
+    width: 300px;
+    height: 300px;
+    border-radius: 400px;
+    margin-bottom: 0;
+    border: 2px solid #00e0ff;
+ 
+}
+ 
